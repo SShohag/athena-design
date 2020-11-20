@@ -1,0 +1,43 @@
+
+.cardFigure h1{
+    font-weight: 700;
+}
+.cardFigure p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.underline{
+    margin: 0 auto;
+    height: 0px;
+    width: 150px;
+    border: 1px solid #3cedce;
+}
+.cardFigure:hover .underline{
+    display: none;
+}
+.teamButton{
+    border: none;
+    border: 1px solid lightgrey;
+    height: 45px;
+    width: 130px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to right, #1cd9b7, #0fbdd8);
+}
+.cardDiv{
+    box-shadow: 3px 4px 5px lightgrey;
+}
+
+.cardDiv:hover{
+    border: 3px solid #3cedce;
+}
+input{
+    display: none;
+}
+.cardFigure:hover input{
+    margin: 0 auto;
+    display: block;
+}
+.teamHeading{
+    text-align: center;
+}
